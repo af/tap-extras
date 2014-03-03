@@ -1,0 +1,31 @@
+{
+  "name": "tap-extras",
+  "version": "0.0.1",
+  "description": "A wrapper for tap-parser, that also parses extra lines",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/af/tap-extras"
+  },
+  "keywords": [
+    "tap",
+    "tap-parser",
+    "testing"
+  ],
+  "author": "Aaron Franks (http://aaronfranks.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/af/tap-extras/issues"
+  },
+  "dependencies": {
+    "tap-parser": "0.4.1",
+    "inherits": "2.0.1"
+  },
+ "devDependencies": {
+    "tape": "~2.3.2",
+    "tap": "~0.4.6"
+  }
+}
